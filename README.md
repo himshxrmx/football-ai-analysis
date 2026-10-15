@@ -107,6 +107,7 @@ remove them.
 16. [Future enhancements](#16-future-enhancements)
 17. [Project structure](#17-project-structure)
 18. [Further documents](#18-further-documents)
+19. [Licence](#licence)
 
 ---
 
@@ -465,6 +466,7 @@ Tests that need the model weights are skipped automatically if the weights have 
 football-ai-analysis/
   app.py                     Streamlit entry point and navigation
   config.py                  all settings in one place
+  LICENSE                    GNU AGPL-3.0
   requirements.txt           pinned dependencies
   setup.bat, setup.sh        one-time installation (Windows / macOS and Linux)
   run_app.bat, run_app.sh    start the app (Windows / macOS and Linux)
@@ -515,6 +517,11 @@ To show an email address on the privacy and terms pages, set the environment var
 * `docs/DEMO_SCRIPT.md`: a five-minute demonstration script, including the sample's calibration points
 * `docs/NOVELTY_AND_APPLICATIONS.md`: what is new in this project and where it can be used
 
-**Licences.** This project uses Ultralytics YOLO under the AGPL-3.0 licence; if the application is offered to
-others over a network, its complete source code must be made available to them. Other libraries use permissive
-licences (see the Terms of use page in the app).
+## Licence
+
+This project is released under the **GNU Affero General Public License v3.0** (see [LICENSE](LICENSE)), the same
+licence as Ultralytics YOLO, which it uses. You may use, study, change and share the code, but if you distribute a
+modified version, or let others use it over a network (for example as a hosted website), you must make your
+complete source code available to them under the same licence. The other libraries keep their own licences (listed
+on the Terms of use page in the app). The sample video and the model weights are not part of this repository and
+are covered by their own terms.

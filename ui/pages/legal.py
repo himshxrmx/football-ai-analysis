@@ -100,6 +100,11 @@ video. By using it you agree to these terms.
 The application is provided as it is, without any warranty. To the extent the law allows, the project team is
 not liable for any loss caused by using it or relying on its results.
 
+### Licence of this application
+The source code of this application is released under the GNU Affero General Public License v3.0 (the LICENSE file
+in the project folder). If you offer a modified version to others over a network, you must make its complete
+source code available to them.
+
 ### Third-party software
 The application uses open-source software under its own licences, including:
 * Ultralytics YOLO and its tracker implementations: AGPL-3.0. If you offer the application to others over a
