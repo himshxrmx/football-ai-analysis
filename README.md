@@ -28,7 +28,7 @@ Everything runs locally: your videos are processed on your own computer and neve
 * Or, with Git installed:
 
 ```bash
-git clone {{REPO_URL}}.git
+git clone https://github.com/himshxrmx/football-ai-analysis.git
 ```
 
 **Step 2: Install (only once, takes about 5 to 15 minutes)**
