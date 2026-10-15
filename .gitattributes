@@ -1,0 +1,5 @@
+# Keep Windows scripts with CRLF and shell scripts with LF, whatever the checkout platform.
+*.bat text eol=crlf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf

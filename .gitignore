@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Large or generated files: never commit videos, weights or results
+data/uploads/*
+data/samples/*
+!data/samples/README.md
+models/*
+!models/README.md
+outputs/*
+!outputs/.gitkeep
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pt
+*.onnx
+
+# Secrets and local settings
+.env
+.streamlit/secrets.toml
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,23 @@
+# Football Video Analysis System
+# Tested with Python 3.13 on Windows 11 (CPU only).
+#
+# On Windows and Linux the CPU build of PyTorch is smaller; install it first with:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# then:
+#   pip install -r requirements.txt
+
+ultralytics==8.4.177      # YOLO26 detection, ByteTrack tracker (pulls in torch, opencv-python, numpy, matplotlib, pyyaml)
+lap==0.5.13               # linear assignment solver used by the ultralytics trackers
+torch==2.14.1
+torchvision==0.29.1
+opencv-python==5.0.0.93
+numpy==2.5.4
+pandas==3.0.6
+matplotlib==3.11.2
+plotly==7.1.0
+streamlit==1.66.0
+fpdf2==2.8.9              # PDF reports
+imageio-ffmpeg==0.6.0     # bundled ffmpeg for browser-playable H.264 video
+pillow==12.3.0
+PyYAML==6.0.3
+pytest==9.1.1             # tests
